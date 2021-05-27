@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secrets</title>
+    <link rel="shortcut icon" href="../../img/icon.png" />
+<link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <!-- formulario de contacto en html y css -->
+    
+      <div class="contact_form">
+        <div class="formulario">
+          <h1>DEJENOS UN COMENTARIO</h1>
+          <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+          <form>
+            <p style="float: left">
+              <label for="nombre" class="colocar_nombre"
+                >Nombre<span class="obligatorio">*</span></label
+              >
+              <input
+                type="text"
+                name="introducir_nombre"
+                id="nombre"
+                required="obligatorio"
+                placeholder="Escribe tu nombre"
+              />
+            </p>
+
+            <p style="float: left">
+              <label for="telefono" class="colocar_telefono">Teléfono </label>
+              <input
+                type="tel"
+                name="introducir_telefono"
+                id="telefono"
+                placeholder="Escribe tu teléfono"
+              />
+            </p>
+
+            <p style="float: left">
+              <label for="email" class="colocar_email"
+                >Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="email"
+                name="introducir_email"
+                id="email"
+                required="obligatorio"
+                placeholder="Escribe tu Email"
+              />
+            </p>
+
+            <p style="float: left">
+              <label for="website" class="colocar_website"
+                >Lugar en el que se hospeda</label
+              >
+              <input
+                type="text"
+                name="introducir_website"
+                id="website"
+                placeholder="Escribe donde se encuentra hospedado"
+              />
+            </p>
+
+            <p style="float: left">
+              <label for="asunto" class="colocar_asunto">Tour de Interes<span class="obligatorio">*</span></label>
+              <input
+                type="text"
+                name="introducir_asunto"
+                id="assunto"
+                required="obligatorio"
+                placeholder="Escribe tu tour de interes"
+              />
+            </p>
+
+            <p style="float: left">
+              <label for="mensaje" class="colocar_mensaje"
+                >Mensaje<span class="obligatorio">*</span></label
+              >
+              <textarea
+                name="introducir_mensaje"
+                class="texto_mensaje"
+                id="mensaje"
+                required="obligatorio"
+                placeholder="Deja aquí tu comentario..."
+              ></textarea>
+            </p>
+
+           
+              
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113590.5699342889!2d-86.97490236109815!3d20.419094910611385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e524d0d20aa43%3A0x6ed28f3a1fbb264d!2sSecrets%20Aura%20Cozumel!5e0!3m2!1ses-419!2smx!4v1621992529593!5m2!1ses-419!2smx" width="550" height="412" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             
+            
+            <button type="submit" name="enviar_formulario" id="enviar">
+              <p><a href="../../index.html">Enviar</a></p>
+            </button>
+
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
